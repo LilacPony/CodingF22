@@ -1,0 +1,148 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Signika+Negative:wght@300&display=swap');
+
+body{
+	background-color: mintcream
+}
+
+#BG{
+	background-image: linear-gradient(transparent, #7BAB94);
+}
+
+b{
+	color: #06191A;
+}
+
+/*text styles*/
+h1{
+	font-family: 'Caveat', cursive;
+}
+
+
+h2{
+	font-family: 'Caveat', cursive;
+	text-align: center;
+	text-decoration: underline;
+}
+
+p{
+	font-family: 'Signika Negative', sans-serif;
+}
+
+li{
+	font-family: 'Signika Negative', sans-serif;
+}
+
+/*header/footer/mostly nav stuff*/
+header{
+	text-align: center;
+	overflow: hidden;
+	padding-bottom: 15px;
+	color: #06191A;
+}
+
+nav{
+	text-align: center;
+	background-color: #412117;
+	padding: 15px 0px;
+	font-family: 'Signika Negative', sans-serif;
+	
+}
+
+nav a:link{
+	padding: 0px 30px;
+	color: antiquewhite;
+	text-decoration: none;
+}
+
+nav a:hover{
+	transition-duration: 0.2s;
+	color: #4DE0E1;
+}
+
+nav a:visited{
+	color: transparent;
+}
+
+.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+footer{
+	background-color: #412117;
+	text-align: center;
+	color: white;
+	padding: 5px 10px;
+	font-size: 14px;
+}
+
+/*section stuff*/
+section{
+	margin: 0 auto;
+	text-align: justify;
+	overflow: hidden;
+	max-width: 1000px;
+	padding: 0px 15px;
+}
+
+section h2{
+	color: #06191A;
+}
+
+
+#intro p{
+	text-align: justify;
+}
+
+.alttext{
+	padding-bottom: 30px;
+	text-align: center;
+}
+
+
+#adventure ul{
+	padding-bottom: 30px;
+}
+
+li{
+	padding: 5px 0px;
+}
+
+#ref{
+	max-width: none;
+	color: antiquewhite;
+	background-color: #643425;
+}
+
+#ref h2{
+	color: antiquewhite;
+}
+
+/*[hyperlink blocked]*/
+a{
+	color: white;
+}
+
+a:hover{
+	color: #E4D04B;
+	transition-duration: 0.2s;
+}
+
+/*images. oh god the images.*/
+img{
+	float: right;
+	padding: 0px 0px 20px 20px;
+}
+
+header img{
+	float: none;
+}
+
+.altimg{
+	float: left;
+	padding-right: 10%;
+}
