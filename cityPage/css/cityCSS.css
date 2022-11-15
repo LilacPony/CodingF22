@@ -1,0 +1,166 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*elements*/
+h1, h2, h3, h4, h5, nav{
+	font-family: 'Rubik', sans-serif;
+}
+
+p{
+	font-family: 'Open-Sans', sans-serif;
+	color: #051014;
+}
+
+nav{
+	background-color: #FAFAFA;
+	color: #051014;
+}
+
+a{
+	color: #E6AF2E;
+}
+
+a:hover{
+	transition-duration: 0.2s;
+	color: #9BC53D;
+	text-decoration: none;
+}
+
+a:visited{
+	color: #9BC53D;
+}
+
+h2{
+	color: #051014;
+	}
+
+h2:hover{
+	transition-duration: 0.3s;
+	color: #9BC53D;
+	text-decoration: none;
+}
+
+h1, h3{
+	color: #FAFAFA;
+}
+
+
+footer{
+	background-color: #051014;
+}
+
+/*classes*/
+.bodyBG{
+	background-color: #2589BD;
+}
+
+/*I swear I've been trying to figure this out for YEARS. I didn't think it could be done! It's easier to manual edit the header image but hooooooly moly*/
+.altbodyBG{
+	background: linear-gradient(transparent, 10%, #2589BD),
+    url("../images/body.png");
+	background-size: cover;
+}
+/*I could actually kiss someone right now it works perfectly oh my sweet Arceus*/
+
+.blackTXT{
+	color: #051014;
+}
+
+.elemBG{
+	background-color: #FAFAFA;
+	border-radius: 20px;
+}
+
+.pos{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #051014;
+	border-radius: 20px;
+}
+
+.elemBG:hover{
+	background-color: #E6AF2E;
+	transition-duration: 0.2s;
+}
+
+.pos:hover{
+	background-color: #9BC53D;
+	transition-duration: 0.2s;
+}
+
+/*IDs*/
+#homeHead{
+	background-image: url("../images/mastHead.png");
+	height: 35vw;
+	background-size: cover;
+}
+
+#Row1{
+	background-color: #FAFAFA;
+	border-radius: 20px;
+}
+
+#Row2{
+	background-color: #FAFAFA;
+	border-radius: 20px;
+}
+
+/*wombo combos*/
+footer p{
+	color: #2589BD;
+}
+
+nav a{
+	color: #051014 !important;
+}
+
+nav a:hover{
+	color: #9BC53D !important;
+}
+
+li a{
+	color: #E6AF2E !important;
+}
+
+li a:hover{
+	color: #9BC53D !important;
+}
+
+footer h5{
+	color: #2589BD;
+}
+
+
+
+
+/*Media Queries*/
+@media only screen and (max-width: 576px){
+	#Row1 img{
+		background-color: #2589BD;
+		padding: 30px;
+	}
+	
+	#Row2 img{
+		background-color: #2589BD;
+		padding: 30px;
+	}
+	
+	.elemBG{
+	margin-top: 30px;
+	}
+}
+
+@media only screen and (min-width: 576px){
+}
+
+/* Media queries
+
+
+@media only screen and (min-width: 768px){
+	#homeMasthead{
+		background-image: url("../images/newbgjustdropped2.png");
+		background-size: cover;
+	}
+*/
