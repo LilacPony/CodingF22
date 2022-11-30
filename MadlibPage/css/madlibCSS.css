@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Text*/
+h1{
+	font-family: 'Indie Flower', cursive;
+}
+
+p{
+	font-family: 'Kalam', cursive;
+}
+
+form{
+	font-family: 'Kalam', cursive;
+}
+
+input{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+
+/*BGs*/
+header{
+	background-image: url("../images/startBG.jpg");
+}
+
+.headCon{
+	background-color: #F4F3EE;
+	border-radius: 1vh;
+}
+
+.headSpace{
+	padding: 7vh;
+}
+
+.bodCol{
+	background-color: #F4F3EE;
+	border-radius: 1vh;
+}
+
+#Body{
+	background-image: linear-gradient(white 35%, #413620);
+}
+
+/*IDs*/
+#madlib{
+	background-image: url("../images/startBG.jpg");
+	/*https://pixabay.com/photos/cave-tunnel-underground-entrance-94193/*/
+	background-position: center;
+	background-size: cover;
+	border-radius: 1vh;
+}
+
+#madlib p{
+	background-color: hsla(0,0%,100%,0.80);
+	padding: 1vh;
+	border-radius: 1vh;
+}
